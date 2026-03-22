@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taniti Island</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="headerPanel">
+    <div class="fixedWidthContent container">
+      <div>
+        <div>
+          <a href="index.html"><img src="images/tanitilogo100.jpg" alt="Logo image of Taniti Island."></a>
+        </div>
+        <nav class="navPanel">
+          <a href="index.html">Home</a>
+          <a href="lodging.html">Lodging</a>
+          <a href="food.html">Food</a>
+          <a href="activities.html">Activities</a>
+          <a href="transportation.html">Transportation</a>
+          <span>FAQ</span>
+        </nav>
+      </div>
+      <div class="rightContent">
+        <div>
+          <label for="search">Search:</label>
+          <input onclick="showToast()" type="text" name="search" id="search">
+        </div>
+        <a href="book.html">
+          <div class="callToAction callToActionTop">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <br>
+
+  <h1 class="fixedWidthContent">Frequently Requested Information:</h1>
+
+  <section class="fixedWidthContent container">
+    <ul>
+      <li>Power outlets are 120 volts (the same as in the United States).<br><br></li>
+      <li>Alcohol is not allowed to be served or sold between the hours of midnight and 9:00 a.m.<br><br></li>
+      <li>The drinking age in Taniti is 18, and it is not strictly enforced.<br><br></li>
+      <li>Many younger Tanitians speak fluent English. Very little English is spoken in rural areas, especially by the
+        older residents.<br><br></li>
+      <li>There is one hospital and several clinics. The hospital has many multilingual employees.<br><br></li>
+      <li>Violent crime is very rare on Taniti, but as tourism increases, there are more reports of pickpocketing and
+        other petty crimes.<br><br></li>
+      <li>Taniti enjoys many national holidays, and many tourist attractions and restaurants will be closed on holidays,
+        so visitors should plan accordingly.<br><br></li>
+      <li>Taniti uses the U.S. dollar as its currency, but many businesses will also accept euros and yen. Several banks
+        facilitate currency exchange, and many businesses accept major credit cards.</li>
+    </ul>
+  </section>
+
+  <br>
+
+  <footer class="footerPanel">
+    <div class="fixedWidthContent container2">
+      <div class="leftContent2" id="ttc">
+        <a href="#ttc" onclick="showToast()"><img src="images/tanititourismlogo100.jpg"
+            alt="Taniti Tourism Association logo."></a>
+      </div>
+
+      <div class="centerContent">
+        <a href="book.html">
+          <div class="callToAction callToActionBottom">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="rightContent2">
+        <nav>
+          <div>Site Links<br>
+            <a href="index.html">Home</a><br>
+            <a href="lodging.html">Lodging</a><br>
+            <a href="food.html">Food</a><br>
+            <a href="activities.html">Activities</a><br>
+            <a href="transportation.html">Transportation</a><br>
+            <span>FAQ</span>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <div id="toast-container">
+    <!-- Toast messages will be appended here by JavaScript -->
+  </div>
+
+</body>
+
+</html>

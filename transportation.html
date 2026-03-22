@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taniti Island</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="headerPanel">
+    <div class="fixedWidthContent container">
+      <div>
+        <div>
+          <a href="index.html"><img src="images/tanitilogo100.jpg" alt="Logo image of Taniti Island."></a>
+        </div>
+        <nav class="navPanel">
+          <a href="index.html">Home</a>
+          <a href="lodging.html">Lodging</a>
+          <a href="food.html">Food</a>
+          <a href="activities.html">Activities</a>
+          <span>Transportation</span>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="rightContent">
+        <div>
+          <label for="search">Search:</label>
+          <input onclick="showToast()" type="text" name="search" id="search">
+        </div>
+        <a href="book.html">
+          <div class="callToAction callToActionTop">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="fixedWidthContent">
+    <h1>Activities For All Personalities</h1>
+  </div>
+
+  <hr>
+
+  <section class="fixedWidthContent container">
+    <div class="textBlockLeft">
+      <h3>Transportation To The Island</h3>
+      <p>
+        Almost all visitors arrive in Taniti by air, though some arrive on a small cruise ship that docks in Yellow Leaf
+        Bay for one night per week. Taniti is served by a small airport that can accommodate small jets and propeller
+        planes. Taniti is expanding the airport so larger jets can land on the island within the next few years.
+      </p>
+    </div>
+    <img class="round15Img" src="images/islandjet.jpg" alt="Image of a jet airliner over the island." width="400">
+  </section>
+
+  <section class="fixedWidthContent container">
+    <img class="round15Img imgPadding" src="images/islandcruiseship.jpg"
+      alt="Image of a small cruise ship." width="393">
+    <img class="round15Img imgPadding" src="images/islandwaterplane.jpg" alt="Image of a float plane."
+      width="393">
+  </section>
+
+  <hr>
+
+  <section class="fixedWidthContent container">
+    <img class="round15Img" src="images/islandbus2.jpg" alt="Image of a colorful bus."
+      width="400">
+    <div class="textBlockRight">
+      <h3>Ground Transportation On The Island</h3>
+      <p>
+        Public buses serve Taniti City and run from 5 a.m. to 11 p.m. every day. Private buses serve the rest of the
+        island. Taxis are available in Taniti City, and rental cars can be picked up from a local agency near the
+        airport. Bikes and helmets are available to rent from several vendors (helmets are required by law). Taniti City
+        is fairly flat and very walkable. Many tourists stay in the area around Merriton Landing; it's easy to explore
+        on foot.
+      </p>
+    </div>
+  </section>
+
+  <section class="fixedWidthContent container">
+    <img class="round15Img imgPadding" src="images/islandtaxi.jpg" alt="Image of a taxi cab."
+      width="393">
+    <img class="round15Img imgPadding" src="images/islandrentalcar.jpg" alt="Image of a rental car."
+      width="393">
+  </section>
+
+  <br>
+
+  <footer class="footerPanel">
+    <div class="fixedWidthContent container2">
+      <div class="leftContent2" id="ttc">
+        <a href="#ttc" onclick="showToast()"><img src="images/tanititourismlogo100.jpg"
+            alt="Taniti Tourism Association logo."></a>
+      </div>
+
+      <div class="centerContent">
+        <a href="book.html">
+          <div class="callToAction callToActionBottom">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="rightContent2">
+        <nav>
+          <div>Site Links<br>
+            <a href="index.html">Home</a><br>
+            <a href="lodging.html">Lodging</a><br>
+            <a href="food.html">Food</a><br>
+            <a href="activities.html">Activities</a><br>
+            <span>Transportation</span><br>
+            <a href="faq.html">FAQ</a>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <div id="toast-container">
+    <!-- Toast messages will be appended here by JavaScript -->
+  </div>
+
+</body>
+
+</html>

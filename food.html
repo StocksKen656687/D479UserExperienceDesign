@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taniti Island</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="headerPanel">
+    <div class="fixedWidthContent container">
+      <div>
+        <div>
+          <a href="index.html"><img src="images/tanitilogo100.jpg" alt="Logo image of Taniti Island."></a>
+        </div>
+        <nav class="navPanel">
+          <a href="index.html">Home</a>
+          <a href="lodging.html">Lodging</a>
+          <span>Food</span>
+          <a href="activities.html">Activities</a>
+          <a href="transportation.html">Transportation</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="rightContent">
+        <div>
+          <label for="search">Search:</label>
+          <input onclick="showToast()" type="text" name="search" id="search">
+        </div>
+        <a href="book.html">
+          <div class="callToAction callToActionTop">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <br>
+
+  <section class="fixedWidthContent container">
+    <div class="textBlockLeft">
+      <h3>Restaurants</h3>
+      <p>Taniti currently has 10 restaurants: five serve mostly local fish and rice, three serve American-style meals,
+        and two serve Pan-Asian cuisine.</p>
+    </div>
+    <img class="round15Img" src="images/islandrestaurant.jpg" alt="Image of people dining on a restaurant veranda." width="400">
+  </section>
+
+  <hr>
+
+  <section class="fixedWidthContent container">
+    <img class="round15Img" src="images/islandgroceries.jpg" alt="Image of a family shopping for groceries." width="400">
+    <div class="textBlockRight">
+      <h3>Groceries</h3>
+      <p>Taniti has two supermarkets and two smaller grocery stores.</p>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="fixedWidthContent container">
+    <div class="textBlockLeft">
+      <h3>Convenience Store</h3>
+      <p>Taniti has one convenience store that is open 24 hours a day.</p>
+    </div>
+    <img class="round15Img" src="images/islandconvenience.jpg" alt="Image of a convenience store at night."
+      width="400">
+  </section>
+
+  <br>
+
+  <footer class="footerPanel">
+    <div class="fixedWidthContent container2">
+      <div class="leftContent2" id="ttc">
+        <a href="#ttc" onclick="showToast()"><img src="images/tanititourismlogo100.jpg"
+            alt="Taniti Tourism Association logo."></a>
+      </div>
+
+      <div class="centerContent">
+        <a href="book.html">
+          <div class="callToAction callToActionBottom">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="rightContent2">
+        <nav>
+          <div>Site Links<br>
+            <a href="index.html">Home</a><br>
+            <a href="lodging.html">Lodging</a><br>
+            <span>Food</span><br>
+            <a href="activities.html">Activities</a><br>
+            <a href="transportation.html">Transportation</a><br>
+            <a href="faq.html">FAQ</a>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <div id="toast-container">
+    <!-- Toast messages will be appended here by JavaScript -->
+  </div>
+
+</body>
+
+</html>

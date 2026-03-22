@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taniti Island Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="headerPanel">
+    <div class="fixedWidthContent container">
+      <div>
+        <div>
+          <a href="index.html"><img src="images/tanitilogo100.jpg" alt="Logo image of Taniti Island."></a>
+        </div>
+        <nav class="navPanel">
+          <a href="index.html">Home</a>
+          <a href="lodging.html">Lodging</a>
+          <a href="food.html">Food</a>
+          <a href="activities.html">Activities</a>
+          <a href="transportation.html">Transportation</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="rightContent">
+        <div>
+          <label for="search">Search:</label>
+          <input onclick="showToast()" type="text" name="search" id="search">
+        </div>
+        <a href="book.html">
+          <div class="callToAction callToActionTop">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <br>
+
+  <section class="fixedWidthContent">
+    <img class="round15Img" src="images/contactbanner.jpg" alt="Image of an island resort with lodging huts."
+      width="800">
+  </section>
+
+  <hr>
+
+  <section class="fixedWidthContent gridContainer">
+    <aside class="contactAside">
+      <img src="images/contactIsland1.jpg" alt="Image of an island." width="250px">
+      <img src="images/contactIsland2.jpg" alt="Image of an island." width="250px">
+      <img src="images/contactIsland3.jpg" alt="Image of a dock under crossing palm trees." width="250px">
+      <img src="images/contactIsland4.jpg" alt="Image of an island." width="250px">
+
+
+    </aside>
+    <div>
+      <form id="contactUs" action="">
+        <div class="formColumn">
+          <label for="name">*Name:</label>
+          <input type="text" name="name" id="name" required>
+          <label for="phone">*Phone Number:</label>
+          <input type="text" name="phone" id="phone" required>
+          <label for="theEmail">*Email Address:</label>
+          <input type="email" name="theEmail" id="theEmail" required>
+          <label for="confirmEmail">*Confirm Email Address:</label>
+          <input type="email" name="confirmEmail" id="confirmEmail" required>
+          <label for="timeZone">*Time Zone:</label>
+          <input type="text" name="timeZone" id="timeZone" required>
+          <label for="myQuestion">Questions and Comments:</label>
+          <textarea name="myQuestion" id="myQuestion" cols="30" row="6"></textarea>
+          <label for="phoneNumber">Preferred Contact Method:</label>
+          <select name="myContactType" id="myContactType">
+            <option value="Phone">Phone</option>
+            <option value="Email">Email</option>
+            <option value="Text">Text Message</option>
+          </select>
+          <input onclick="showToast()" type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
+      </form>
+    </div>
+    <aside class="contactAside">
+      <img src="images/contactIsland5.jpg" alt="Image of an unpaved lane in between dense palm forest." width="250px">
+      <img src="images/contactIsland6.jpg" alt="Image of an island." width="250px">
+      <img src="images/contactIsland7.jpg" alt="Image of an island." width="250px">
+      <img src="images/contactIsland8.jpg" alt="Image of an island." width="250px">
+    </aside>
+  </section>
+
+  <hr>
+
+  <section class="fixedWidthContent">
+    <img class="round15Img" src="images/contactfooter.jpg" alt="Image of an island resort with lodging huts."
+      width="800">
+  </section>
+
+  <br>
+
+  <footer class="footerPanel">
+    <div class="fixedWidthContent container2">
+      <div class="leftContent2" id="ttc">
+        <a href="#ttc" onclick="showToast()"><img src="images/tanititourismlogo100.jpg"
+            alt="Taniti Tourism Association logo."></a>
+      </div>
+
+      <div class="centerContent">
+        <a href="book.html">
+          <div class="callToAction callToActionBottom">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="rightContent2">
+        <nav>
+          <div>Site Links<br>
+            <a href="index.html">Home</a><br>
+            <a href="lodging.html">Lodging</a><br>
+            <a href="food.html">Food</a><br>
+            <a href="activities.html">Activities</a><br>
+            <a href="transportation.html">Transportation</a><br>
+            <a href="faq.html">FAQ</a>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <div id="toast-container">
+    <!-- Toast messages will be appended here by JavaScript -->
+  </div>
+
+</body>
+
+</html>

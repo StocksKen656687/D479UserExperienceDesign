@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taniti Island</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="headerPanel">
+    <div class="fixedWidthContent container">
+      <div>
+        <div>
+          <a href="index.html"><img src="images/tanitilogo100.jpg" alt="Logo image of Taniti Island."></a>
+        </div>
+        <nav class="navPanel">
+          <a href="index.html">Home</a>
+          <span>Lodging</span>
+          <a href="food.html">Food</a>
+          <a href="activities.html">Activities</a>
+          <a href="transportation.html">Transportation</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="rightContent">
+        <div>
+          <label for="search">Search:</label>
+          <input onclick="showToast()" type="text" name="search" id="search">
+        </div>
+        <a href="book.html">
+          <div class="callToAction callToActionTop">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="fixedWidthContent">
+    <h1>Accommodations For All Budgets</h1>
+    <p>
+      All types of lodging are strictly regulated and regularly inspected by the Tanitian government.
+    </p>
+  </div>
+
+  <br>
+  <hr>
+
+  <section class="fixedWidthContent container">
+    <div class="textBlockLeft">
+      <h3>Taniti Resort</h3>
+      <p>
+        Taniti has one large, four-star resort with first-class accommodation and spectacular views.
+      </p>
+    </div>
+    <img class="round15Img" src="images/islandresort.jpg" alt="Image of a resort with bungalows on the water in a lagoon." width="400">
+  </section>
+
+  <hr>
+
+  <section class="fixedWidthContent container">
+    <img class="round15Img" src="images/islandhotel2.jpg" alt="Image of a beachfront hotel." width="400">
+    <div class="textBlockRight">
+      <h3>Hotels</h3>
+      <p>
+        Taniti has many small, family-owned hotels.
+      </p>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="fixedWidthContent container">
+    <div class="textBlockLeft">
+      <h3>Bed-and-Breakfasts</h3>
+      <p>
+        Taniti has a growing number of bed-and-breakfasts with clean, comfortable rooms and first-class hospitality.
+      </p>
+    </div>
+    <img class="round15Img" src="images/islandbedbreakfast.jpg" alt="Image of a breakfast table with a bed in the background."
+      width="400">
+  </section>
+
+  <hr>
+
+  <section class="fixedWidthContent container">
+    <img class="round15Img" src="images/islandhostel.jpg" alt="Image of two women inside a hostel." width="400">
+    <div class="textBlockRight">
+      <h3>Hostels</h3>
+      <p>
+        Taniti has inexpensive hostels for travelers on a strict budget.
+      </p>
+    </div>
+  </section>
+
+  <br>
+
+  <footer class="footerPanel">
+    <div class="fixedWidthContent container2">
+      <div class="leftContent2" id="ttc">
+        <a href="#ttc" onclick="showToast()"><img src="images/tanititourismlogo100.jpg"
+            alt="Taniti Tourism Association logo."></a>
+      </div>
+
+      <div class="centerContent">
+        <a href="book.html">
+          <div class="callToAction callToActionBottom">
+            <p>Request Quote</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="rightContent2">
+        <nav>
+          <div>Site Links<br>
+            <a href="index.html">Home</a><br>
+            <span>Lodging</span><br>
+            <a href="food.html">Food</a><br>
+            <a href="activities.html">Activities</a><br>
+            <a href="transportation.html">Transportation</a><br>
+            <a href="faq.html">FAQ</a>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <div id="toast-container">
+    <!-- Toast messages will be appended here by JavaScript -->
+  </div>
+
+</body>
+
+</html>
