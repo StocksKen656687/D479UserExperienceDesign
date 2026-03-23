@@ -3,14 +3,14 @@
   --color1b: #588c7e;
   --color1c: #427064;
   --color2a: #ffeead;
-  --color2b: #f2e394;
-  --color3a: #ffcc5c;
-  --color3b: #f2ae72;
-  --color4a: #ff6f69;
+  /* --color2b: #f2e394; */
+  /* --color3a: #ffcc5c; */
+  /* --color3b: #f2ae72; */
+  /* --color4a: #ff6f69; */
   --color4b: #d96459;
   --colorGold: #C4A940;
   --colorWhite: white;
-  --colorBlack: black;
+  /* --colorBlack: black; */
   --colorRed: rgba(255, 0, 0, 0.596);
 }
 
