@@ -8,6 +8,7 @@
   --color3b: #f2ae72;
   --color4a: #ff6f69;
   --color4b: #d96459;
+  --colorGold: #C4A940;
   --colorWhite: white;
   --colorBlack: black;
   --colorRed: rgba(255, 0, 0, 0.596);
@@ -22,6 +23,10 @@ html {
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+hr {
+  border: 1px solid gray;
 }
 
 .round15Img {
@@ -108,13 +113,17 @@ html {
 }
 
 .callToActionTop {
-  margin-left: 40px;
-  margin-top: 50px;
+  margin-left: 65px;
+  margin-top: 10px;
 }
 
 .callToActionBottom {
   margin-left: -30px;
   margin-bottom: 50px;
+}
+
+.copyright {
+  margin-left: -55px;
 }
 
 .container2 {
@@ -125,9 +134,9 @@ html {
   /* gap: 20px; */
 }
 
-nav span {
-  color: var(--color1b);
-  background-color: var(--color1a);
+nav span.current {
+  color: var(--color1c);
+  background-color: var(--colorGold);
 }
 
 nav a:hover {
